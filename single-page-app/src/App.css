@@ -1,6 +1,7 @@
 .App {
+  background-color: lightgray;
   text-align: center;
-  /* background-image: 'https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'; */
+  background-image: 'https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260';
   font-family: 'Freckle Face', cursive;
 }
 
@@ -21,20 +22,21 @@
 
 h1 {
   font-size: 3rem;
-  color: green;
+  margin: 0;
 }
 
 .link {
   text-decoration: none;
+  color: black;
   font-weight: bold;
   font-size: 2rem;
-  /* border-bottom: 2px solid black; */
   margin: 5rem;
   padding: 5rem;
 }
 
 nav {
   padding: 4rem;
+  background-color: skyblue;
   border-bottom: 2px solid white;
   border-top: 2px solid white;
 }
