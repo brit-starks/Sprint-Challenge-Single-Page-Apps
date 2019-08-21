@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  /* background-image: 'https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'; */
+  font-family: 'Freckle Face', cursive;
+}
+
+.characters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 5rem;
+}
+
+.character-wrapper {
+  margin: 3rem;
+  background-color: skyblue;
+  padding: 4rem;
+  border-radius: 5rem;
+  /* background-image: url('https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); */
+}
+
+h1 {
+  font-size: 3rem;
+  color: green;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2rem;
+  /* border-bottom: 2px solid black; */
+  margin: 5rem;
+  padding: 5rem;
+}
+
+nav {
+  padding: 4rem;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+}
+
+.character-img {
+  border-radius: 50rem;
+}
+
+.episode-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 5rem;
+}
+
+/* .App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  } */
+
