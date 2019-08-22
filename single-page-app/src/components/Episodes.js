@@ -27,7 +27,7 @@ export default function RMEpisode(props) {
 
   return(
 
-    <div className='episode-card'>
+    <div className='episode'>
     {episode.map(
       // console.log('Mapped characters: ', character)
       episodeCard

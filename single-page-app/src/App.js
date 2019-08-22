@@ -10,13 +10,13 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Rick & Morty</h1>
+      <h1 className='title'>Rick & Morty</h1>
       <nav>
         <NavLink className='link' to='/characters'>Characters</NavLink>
         <NavLink className='link' to='/episodes'>Episodes</NavLink>
         <NavLink className='link' to='/locations'>Locations</NavLink>
       </nav>
-      <Location />
+      {/* <Location /> */}
       <Route exact path='/characters' component={Characters} />
       <Route path='/episodes' component={Episodes} />
       <Route path='/locations' component={Location} />

@@ -7,7 +7,7 @@ const EpisodeCard = (props) => {
   return(
     <div className='episode-card'>
       <div>
-        <h1>{props.name}</h1>
+        <h2>{props.name}</h2>
         <h3>{props.episode}</h3>
         <h3>{props.date}</h3>
       </div>

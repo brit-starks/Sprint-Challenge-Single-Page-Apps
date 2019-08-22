@@ -14,10 +14,20 @@
 
 .character-wrapper {
   margin: 3rem;
-  background-color: skyblue;
+  background-color: gainsboro;
+  border: 1px solid white;
   padding: 4rem;
   border-radius: 5rem;
   /* background-image: url('https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); */
+}
+.character-name {
+  background-color: white;
+  border-radius: 2rem;
+  margin: 0 0 2rem 0;
+}
+
+.title {
+  font-size: 8rem;
 }
 
 h1 {
@@ -36,20 +46,34 @@ h1 {
 
 nav {
   padding: 4rem;
-  background-color: skyblue;
+  background-color: white;
   border-bottom: 2px solid white;
   border-top: 2px solid white;
 }
 
 .character-img {
   border-radius: 50rem;
+  justify-content: space-around;
+}
+
+
+
+.episode{
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-around; */
+  flex-wrap: wrap;
+  /* border: 1px solid gray;  */
 }
 
 .episode-card {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 5rem;
+  box-sizing: border-box;
+  background-color: gainsboro;
+  border: 1px solid white;
+  border-radius: 4rem;
+  justify-content: space-around;
+  padding: 3rem;
+  margin: 2rem 5rem;
 }
 
 /* .App-logo {
