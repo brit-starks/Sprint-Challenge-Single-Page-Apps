@@ -15,22 +15,13 @@ const Location = (props)=> {
     .catch(err =>console.log('Unable to resolve request: ', err))
   }, []);
 
-  // const locationCard = (location) => {
-  //   return( 
-  //     <LocationCard 
-  //     name={location.name}
-  //     location={location.type}
-  //     />
-  //   )}
-
   return (
     <div>
       {location.map( (location, index) => {
         return(
-          <LocationCard location={location} key={index}/>
+          <LocationCard location={location} key={index} className='location' />
           )
         }
-        // console.log('Mapped characters: ', character)
         )}
     </div>
   );

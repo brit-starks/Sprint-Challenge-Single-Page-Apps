@@ -3,6 +3,7 @@
   text-align: center;
   background-image: 'https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260';
   font-family: 'Freckle Face', cursive;
+  padding: 0 0 5rem 0;
 }
 
 .characters {
@@ -28,6 +29,7 @@
 
 .title {
   font-size: 8rem;
+  margin: 0 3rem 3rem 3rem;
 }
 
 h1 {
@@ -44,6 +46,9 @@ h1 {
   padding: 5rem;
 }
 
+a:hover{
+  color: darkgray;
+}
 nav {
   padding: 4rem;
   background-color: white;
@@ -61,9 +66,7 @@ nav {
 .episode{
   display: flex;
   justify-content: center;
-  /* justify-content: space-around; */
   flex-wrap: wrap;
-  /* border: 1px solid gray;  */
 }
 
 .episode-card {
@@ -75,6 +78,25 @@ nav {
   padding: 3rem;
   margin: 2rem 5rem;
 }
+
+.location {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.location-card {
+  max-width: 40%;
+  box-sizing: border-box;
+  background-color: gainsboro;
+  border: 1px solid white;
+  border-radius: 4rem;
+  justify-content: space-around;
+  padding: 3rem;
+  margin: 5rem auto;
+}
+
+
 
 /* .App-logo {
   animation: App-logo-spin infinite 20s linear;
