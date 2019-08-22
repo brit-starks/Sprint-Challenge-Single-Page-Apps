@@ -1,0 +1,16 @@
+Self-Study/Essay Questions
+
+
+Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
+
+ Explain benefit(s) using client-side routing?
+  Answer: Pulls whole app from server and caches the data so it's always there, meaning every other request after the initial request is relatively quick. Client Router only updates necessary components, so there's no white page refresh.
+
+ What does AJAX stand for?
+  Answer: Asynchronous Javascript and XML.
+
+ What are controlled components in React?
+  Answer: Controlled components are what allows React to be in control of all of what is on our screen. A React component that handles form element is controlled by React.
+
+ Name three tools/libraries for making AJAX requests.
+  Answer: Fetch API, JQuery, and Axios are an example of libraries that make requests to the server.
